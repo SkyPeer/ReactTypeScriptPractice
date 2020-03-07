@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 export interface MyInterface extends React.HTMLAttributes<HTMLDivElement> {
-  title?: string;
+  title?: string; //не обязательный папрамтр
   children: string;
   name: String;
   tel: Number;
